@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kubia
-  namespace: deploy-ns
+  namespace: test
   labels:
     app: kubia
 spec:
