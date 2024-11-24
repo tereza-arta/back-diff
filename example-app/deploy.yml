@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kubia
+  name: kubiaaa
   namespace: test
   labels:
     app: kubia
