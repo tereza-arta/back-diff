@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: kubia-cnt
-        image: terezabisharyan/kubia:v0.1.0
+        image: terezabisharyan/simple-nodejs:v0.1.0
         ports:
         - containerPort: 80
