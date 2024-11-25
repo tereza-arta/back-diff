@@ -20,4 +20,4 @@ spec:
         - name: cnt
           image: terezabisharyan/simple-nodejs:3584a64
           ports:
-            - containerPort: 80
+            - containerPort: 3000
