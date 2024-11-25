@@ -2,22 +2,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kubia
+  name: nodejs-app
   namespace: test
   labels:
-    app: kubia
+    app: node-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: kubia
+      app: node-app
   template:
     metadata:
       labels:
-        app: kubia
+        app: node-app
     spec:
       containers:
-        - name: kubia-cnt
+        - name: cnt
           image: terezabisharyan/simple-nodejs:3584a64
           ports:
             - containerPort: 80
