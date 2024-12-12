@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: cnt
-          image: terezabisharyan/simple-nodejs:0a15843
+          image: terezabisharyan/simple-nodejs:616fe7f
           ports:
             - containerPort: 3000
