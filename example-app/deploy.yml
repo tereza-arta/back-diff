@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: cnt
-          image: terezabisharyan/simple-nodejs:817d228
+          image: terezabisharyan/simple-nodejs:${GITHUB_SHA::7}
           ports:
             - containerPort: 3000
